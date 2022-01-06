@@ -3,7 +3,7 @@ mybatis:
   mapper-locations: classpath:mybatis/mapper/*.xml
   configuration:
     log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
-    cache-enabled: flase
+    cache-enabled: false
   #注册中心配置
 spring:
   cloud:
